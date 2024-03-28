@@ -13,10 +13,7 @@ import men_banner from './Components/Assets/banner_mens.png';
 import women_banner from './Components/Assets/banner_women.png';
 import kids_banner from './Components/Assets/banner_kids.png';
 import Login from './Pages/Login'
-import AddItems from './Pages/AddItems';
-import Summary from './Pages/Summary';
-import ManageProducts from './Pages/ManageProducts';
-import ManageOrder from './Pages/ManageOrder';
+
 
 
 
@@ -40,11 +37,6 @@ function App() {
           <Route path='/signup' element={<Loginsignup/>}/>
           <Route path='/newcollection' element={<NewCollection/>}/>
           <Route path='/login' element={<Login/>}/>
-          <Route path='/admin' element={<Summary/>}/>
-          <Route path='/additems' element={<AddItems/>}/>
-          <Route path='/summary' element={<Summary/>}/>
-          <Route path='/manageproduct' element={<ManageProducts/>}/>
-          <Route path='/manageorder' element={<ManageOrder/>}/>
 
           </Routes>
 
